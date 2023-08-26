@@ -196,4 +196,5 @@ button:hover {
     .login-google input[type="button"]:hover {
         border: #015ee9a4 solid 4px;
         box-shadow: 0 0 50px #015ee9a4;
+    }
 }
