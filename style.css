@@ -187,8 +187,10 @@ button:hover {
 
     }
     .box-login{
+        width: 70vw;
+        height: 70vh;
+        display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
     }
 }
