@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/background-login.jpg);
+    background-size: cover;
+
+}
+
+.box-login {
+    position: relative;
+    font-family: sans-serif;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 37px;
+    flex-direction: column;
+    box-sizing: border-box;
+    top: 60px;
+    left: 60px;
+}
+
+b {
+
+    color: #FFC85A;
+
+}
+
+.textarea {
+    position: relative;
+    width: 50%;
+    font-family: sans-serif;
+    bottom: 350px;
+    right: 30px;
+    float: right;
+    display: flex;
+    font-size: 40px;
+    text-shadow: 1px 2px 6px rgba(255, 255, 255, 0.514);
+    ;
+
+}
+
+.login-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+    width: max-content;
+    font-size: 30px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    grid-gap: 10px;
+}
+
+.login-google>span {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.login-google>input {
+    width: 300px;
+    height: 53px;
+    border-radius: 10px;
+    background: #5884fe00;
+    color: white;
+    font-size: 30px;
+    border: solid 2px white;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 15px 0;
+    border: #015ee9a4 solid 2px;
+    box-shadow: 0 0 20px #015ee9a4;
+}
+
+.login-email,
+.login-password {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.login-email>span {
+    color: #606060;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.login-password>span {
+    color: #606060;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.login-email>input,
+.login-password>input {
+    width: 270px;
+    height: 53px;
+    border: none;
+    background-color: #60606000;
+    border: solid 2px white;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    cursor: text;
+    margin-top: 8px;
+    padding-left: 30px;
+    transition: 0.3s ease-in-out;
+    border: #ffc85aa4 solid 2px;
+    box-shadow: 0 0 15px #FFC85A;
+}
+
+.login-email>input::placeholder,
+.login-password>input::placeholder {
+    padding: 0 5px;
+
+}
+
+button {
+    border-radius: 15px;
+    background: #FFC85A;
+    filter: blur(0px);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    border: none;
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+.box-login a {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.box-login a:hover {
+    text-decoration: underline;
+}
+
+.login-email>input:hover,
+.login-password>input:hover {
+    border: #ffc85aa4 solid 2px;
+    box-shadow: 0 0 30px #FFC85A;
+}
+
+button:hover {
+    box-shadow: 0 0 20px #FFC85A;
+}
+
+.login-google input[type="button"]:hover {
+    border: #015ee9a4 solid 2px;
+    box-shadow: 0 0 50px #015ee9a4;
+
+}
